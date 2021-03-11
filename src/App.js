@@ -1,11 +1,18 @@
-
-import './App.css';
+import HelloWorld from './Components/HelloWorld';
+import LangSelector from './Components/LangSelector';
+import ReactExample from './Components/ReactExample';
+import ThankYou from './Components/ThankYou';
 
 const App = () => {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <LangSelector />
+      <div className="app">
+          <HelloWorld />
+          <ReactExample />
+          <ThankYou />
+      </div>
+    </>
   );
 }
 
